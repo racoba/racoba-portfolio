@@ -5,7 +5,7 @@ import { LatestWorkMenu } from "@/components";
 export default function Home() {
   const pageStrings = englishStrings.pages;
   return (
-    <div className="flex flex-col gap-10 w-full">
+    <div className="flex flex-col gap-10 w-full pb-6">
       <div className="w-full h-[70vh] mx-auto flex group overflow-hidden">
         <div className="bg-red-500 w-1/2 h-full transition-all duration-500 ease-in-out group-hover:w-[30%] hover:w-[70%]"></div>
         <div className="bg-blue-500 w-1/2 h-full transition-all duration-500 ease-in-out group-hover:w-[30%] hover:w-[70%]"></div>
