@@ -17,11 +17,13 @@ export const LatestWorkMenu = ({ works }: IProps) => {
                 name=""
                 link=""
                 image=""
+                description=""
             />
             <LatestWorkCard
                 name=""
                 link=""
                 image=""
+                description=""
             />
 
         </div>
