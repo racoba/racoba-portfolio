@@ -10,10 +10,10 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="bg-[#1A1A1A] text-white px-6 py-4 shadow-lg h-16">
+    <nav className="bg-[#424242] text-white px-6 py-4 shadow-lg h-16 z-200">
       <div className="max-w-5xl mx-auto flex items-center justify-between my-auto">
-        <Link href="/" className="text-2xl font-bold">
-          MeuSite
+        <Link href="/" className="text-2xl font-medium">
+          Bruno R.
         </Link>
 
         <div className="hidden md:flex gap-6 text-md">

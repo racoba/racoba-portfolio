@@ -12,9 +12,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none;  /* IE e Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0A0A0A;
+    --background: #212121;
     --foreground: #ededed;
   }
 }
