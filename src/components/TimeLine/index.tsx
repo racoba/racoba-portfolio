@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import FlagIcon from '@mui/icons-material/Flag';
 import { TimeLineCard } from './TimeLineCard';
 import englishStrings from '@/resources/strings';
 import { getIconFromString } from '@/utils/utils';
@@ -22,7 +21,6 @@ export const TimeLine = () => {
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
           >
-            {/* Ícone */}
             <div
               className={`flex items-center justify-center bg-white min-w-24 w-24 h-24 rounded-2xl shadow-md transition-all duration-300 ${hoveredIndex === index ? '-translate-y-2' : ''
                 }`}
@@ -49,8 +47,6 @@ export const TimeLine = () => {
                 )}
               </div>
             </div>
-
-
           </div>
         ))}
       </div>
