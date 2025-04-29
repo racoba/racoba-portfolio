@@ -30,7 +30,7 @@ export const Navbar = () => {
           <Link href={strings.links.linkedin} target="_blank" className="hover:text-gray-300 transition">
             <LinkedInIcon style={{ width: 32, height: 32 }} />
           </Link>
-          <Link href={strings.links.linkedin} target="_blank" className="hover:text-gray-300 transition">
+          <Link href={strings.links.github} target="_blank" className="hover:text-gray-300 transition">
             <GitHubIcon style={{ width: 32, height: 32 }} />
           </Link>
         </div>
