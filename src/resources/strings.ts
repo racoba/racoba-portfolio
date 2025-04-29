@@ -57,6 +57,10 @@ const englishStrings = {
                 },
             ],
         },
+        contact: {
+            email: "brunoracobaldo@hotmail.com",
+            phone: "+55 71 9 9920-3427",
+        }
     },
     components: {
         timeline: {
