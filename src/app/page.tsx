@@ -1,15 +1,13 @@
 import { Divider } from "@mui/material";
 import englishStrings from "@/resources/strings";
-import { LatestWorkMenu } from "@/components";
+import { BannerSection, LatestWorkMenu } from "@/components";
 
 export default function Home() {
   const pageStrings = englishStrings.pages;
   return (
     <div className="flex flex-col gap-10 w-full pb-6">
-      <div className="w-full h-[70vh] mx-auto flex group overflow-hidden">
-        <div className="bg-red-500 w-1/2 h-full transition-all duration-500 ease-in-out group-hover:w-[30%] hover:w-[70%]"></div>
-        <div className="bg-blue-500 w-1/2 h-full transition-all duration-500 ease-in-out group-hover:w-[30%] hover:w-[70%]"></div>
-      </div>
+      <BannerSection />
+
       <div className="flex flex-row w-full md:w-[80%] xl:w-[50%] mx-auto items-center justify-center md:justify-between">
         <Divider color="white"
           orientation="horizontal"
@@ -24,7 +22,7 @@ export default function Home() {
         />
       </div>
       <div className="w-full md:w-[80%] xl:w-[50%] mx-auto">
-        <LatestWorkMenu/>
+        <LatestWorkMenu />
       </div>
     </div>
   );
