@@ -1,5 +1,6 @@
 'use client';
 
+import englishStrings from "@/resources/strings";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -12,21 +13,24 @@ export const BannerSection = () => {
         return "/images/homem-cruzados.png";
     };
 
+    const componentStrings = englishStrings.components.bannerSection;
+
     return (
         <div className="w-full bg-[#F3F3F3] h-[70vh] mx-auto flex relative overflow-hidden group">
             <div
-                className={`relative h-full transition-all duration-500 ease-in-out flex flex-col items-center justify-center ${
-                    hovered === "left" ? "w-[70%]" : hovered === "right" ? "w-[30%]" : "w-1/2"
-                }`}
+                className={`relative h-full transition-all duration-500 ease-in-out flex flex-col items-center justify-center ${hovered === "left" ? "w-[70%]" : hovered === "right" ? "w-[30%]" : "w-1/2"
+                    }`}
                 onMouseEnter={() => setHovered("left")}
                 onMouseLeave={() => setHovered(null)}
             >
-                <h2 className="text-black text-3xl font-bold mb-4">Front-End</h2>
+                <h2 className="text-black text-3xl font-bold mb-4">{componentStrings.frontEnd}</h2>
                 {hovered === "left" && (
                     <div className="flex flex-col items-center gap-2 text-black text-xl">
-                        <span>React.js</span>
-                        <span>Angular</span>
-                        <span>Vue.js</span>
+                        {componentStrings.frontEndSkills.map((skill, index) => {
+                            return (
+                                <span key={index}>{skill}</span>
+                            )
+                        })}
                     </div>
                 )}
             </div>
@@ -41,18 +45,19 @@ export const BannerSection = () => {
             </div>
 
             <div
-                className={`relative h-full transition-all duration-500 ease-in-out flex flex-col items-center justify-center ${
-                    hovered === "right" ? "w-[70%]" : hovered === "left" ? "w-[30%]" : "w-1/2"
-                }`}
+                className={`relative h-full transition-all duration-500 ease-in-out flex flex-col items-center justify-center ${hovered === "right" ? "w-[70%]" : hovered === "left" ? "w-[30%]" : "w-1/2"
+                    }`}
                 onMouseEnter={() => setHovered("right")}
                 onMouseLeave={() => setHovered(null)}
             >
-                <h2 className="text-black text-3xl font-bold mb-4">Back-End</h2>
+                <h2 className="text-black text-3xl font-bold mb-4">{componentStrings.backEnd}</h2>
                 {hovered === "right" && (
                     <div className="flex flex-col items-center gap-2 text-black text-xl">
-                        <span>Node.js</span>
-                        <span>Python</span>
-                        <span>Java</span>
+                        {componentStrings.backEndSkills.map((skill, index) => {
+                            return (
+                                <span key={index}>{skill}</span>
+                            )
+                        })}
                     </div>
                 )}
             </div>

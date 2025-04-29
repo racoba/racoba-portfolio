@@ -125,7 +125,21 @@ const englishStrings = {
                 image: "https://media.licdn.com/dms/image/sync/v2/D4D27AQFpRrZiePJtJQ/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1711743660348?e=1746558000&v=beta&t=0-qXitZ_sGmdQ1D4eom8_rnrS_8A8Tc0_Mb--1NiTKQ",
                 description: "Be a sustainable consumer, so you earn discounts and compete for exclusive prizes."
             },
-        ]
+        ],
+        bannerSection: {
+            frontEnd: "Front-End",
+            backEnd: "Back-End",
+            frontEndSkills: [
+                "React.js",
+                "Angular",
+                "Vue.js"
+            ],
+            backEndSkills: [
+                "Node.js",
+                "Python",
+                "Java"
+            ]
+        },
     }
 }
 
