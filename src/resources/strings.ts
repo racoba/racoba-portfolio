@@ -1,7 +1,8 @@
 const englishStrings = {
     links: {
         linkedin: "https://www.linkedin.com/in/bruno-racobaldo-76a7131b6/",
-        instagram: "https://www.instagram.com/brunoracoba/"
+        instagram: "https://www.instagram.com/brunoracoba/",
+        github: "https://github.com/racoba"
     },
     routes: {
         home: "Home",
@@ -106,7 +107,21 @@ const englishStrings = {
 
 
             ]
-        }
+        },
+        latestWorkMenu: [
+            {
+                name: "Worlds",
+                link: "https://tickets.changeworlds.org/",
+                image: "https://image.typedream.com/cdn-cgi/image/width=3840,format=auto,fit=scale-down,quality=100/https://api.typedream.com/v0/document/public/cc802dd2-55e2-443f-aa8d-e598b108b566/2pkonAnMyK3DYgA2b56g4jjViAF_worlds_website_banner_v2_041224_3840x1500.webp",
+                description: "A ticketing platform for events and experiences."
+            },
+            {
+                name: "Ciclick",
+                link: "https://play.google.com/store/apps/details?id=com.ciclik&hl=en_US&gl=US",
+                image: "https://media.licdn.com/dms/image/sync/v2/D4D27AQFpRrZiePJtJQ/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1711743660348?e=1746558000&v=beta&t=0-qXitZ_sGmdQ1D4eom8_rnrS_8A8Tc0_Mb--1NiTKQ",
+                description: "Be a sustainable consumer, so you earn discounts and compete for exclusive prizes."
+            },
+        ]
     }
 }
 

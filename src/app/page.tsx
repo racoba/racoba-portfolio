@@ -16,7 +16,7 @@ export default function Home() {
           style={{ width: "35%", height: 0.1, minWidth: 150 }}
           className="hidden md:block"
         />
-        <span className="text-lg">{pageStrings.home.myWorks}</span>
+        <span className="text-2xl">{pageStrings.home.myWorks}</span>
         <Divider color="white"
           orientation="horizontal"
           style={{ width: "35%", height: 0.1, minWidth: 150 }}
@@ -24,7 +24,7 @@ export default function Home() {
         />
       </div>
       <div className="w-full md:w-[80%] xl:w-[50%] mx-auto">
-        <LatestWorkMenu works={[]}/>
+        <LatestWorkMenu/>
       </div>
     </div>
   );

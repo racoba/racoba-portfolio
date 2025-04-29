@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import strings from '@/resources/strings';
 
@@ -22,12 +23,15 @@ export const Navbar = () => {
           <Link href="/contact" className="hover:text-gray-300 transition">{strings.routes.contact}</Link>
         </div>
 
-        <div className="flex flex-row gap-1">
+        <div className="flex flex-row gap-2">
           <Link href={strings.links.instagram} target="_blank" className="hover:text-gray-300 transition">
             <InstagramIcon style={{ width: 32, height: 32 }} />
           </Link>
           <Link href={strings.links.linkedin} target="_blank" className="hover:text-gray-300 transition">
             <LinkedInIcon style={{ width: 32, height: 32 }} />
+          </Link>
+          <Link href={strings.links.linkedin} target="_blank" className="hover:text-gray-300 transition">
+            <GitHubIcon style={{ width: 32, height: 32 }} />
           </Link>
         </div>
 
