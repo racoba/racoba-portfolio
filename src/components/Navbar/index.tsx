@@ -6,15 +6,16 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import strings from '@/resources/strings';
+import Image from 'next/image';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="bg-[#424242] text-white px-6 py-4 shadow-lg h-16 z-200">
+    <nav className="bg-[#424242] text-white px-6 p1-2 shadow-lg h-16 z-200">
       <div className="max-w-5xl mx-auto flex items-center justify-between my-auto">
-        <Link href="/" className="text-2xl font-medium">
-          Bruno R.
+        <Link href="/" >
+          <Image width={60} height={60} src={"/images/logo.png"} alt="Logo"/>
         </Link>
 
         <div className="hidden md:flex gap-6 text-md">
