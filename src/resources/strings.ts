@@ -286,4 +286,4 @@ const portugueseStrings = {
 }
 
 
-export default { englishStrings, portugueseStrings };
+export default englishStrings;
