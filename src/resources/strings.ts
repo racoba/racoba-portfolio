@@ -132,12 +132,12 @@ const englishStrings = {
             frontEndSkills: [
                 "React.js",
                 "Angular",
-                "Vue.js"
+                "Next.js"
             ],
             backEndSkills: [
+                "C#",
                 "Node.js",
                 "Python",
-                "Java"
             ]
         },
     }

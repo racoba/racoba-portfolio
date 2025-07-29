@@ -18,7 +18,7 @@ export const BannerSection = () => {
     return (
         <div className="w-full bg-[#F3F3F3] h-[70vh] mx-auto flex relative overflow-hidden group">
             <div
-                className={`relative h-full transition-all duration-500 ease-in-out flex flex-col items-center justify-center ${hovered === "left" ? "w-[70%]" : hovered === "right" ? "w-[30%]" : "w-1/2"
+                className={`relative h-full transition-all duration-500 ease-in-out flex flex-col items-center justify-center ${hovered === "left" ? "w-[60%]" : hovered === "right" ? "w-[30%]" : "w-1/2"
                     }`}
                 onMouseEnter={() => setHovered("left")}
                 onMouseLeave={() => setHovered(null)}
