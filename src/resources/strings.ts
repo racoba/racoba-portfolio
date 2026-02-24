@@ -16,7 +16,7 @@ const englishStrings = {
         },
         about: {
             aboutMe: [
-                "I'm a passionate and results-driven Software Engineer currently studying Computer Engineering at SENAI CIMATEC. I have solid experience in full-stack development, working primarily with technologies such as React, Next.js, TypeScript, and Node.js",
+                "I'm a passionate and results-driven Software Engineer gratuated in Computer Engineering at SENAI CIMATEC. I have solid experience in full-stack development, working primarily with technologies such as React, Next.js, TypeScript, and Node.js",
                 "Throughout my journey, I’ve taken on roles ranging from Front-End Developer to Technical Director at CIMATEC Jr., where I led development teams and managed real-world projects with clients. I also gained industry experience during my internship at FIEB, focusing on systems integration and IT innovation.",
                 "Currently, I work at Fetchly Labs, where I build scalable, high-performance applications and contribute to architectural decisions.",
                 "I’m constantly learning, whether through courses on machine learning, exploring advanced front-end architectures, or diving into new frameworks. I'm driven by challenges, teamwork, and the opportunity to create impactful tech solutions.",
