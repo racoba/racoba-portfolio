@@ -43,11 +43,23 @@ const englishStrings = {
                     image: "https://image.typedream.com/cdn-cgi/image/width=3840,format=auto,fit=scale-down,quality=100/https://api.typedream.com/v0/document/public/cc802dd2-55e2-443f-aa8d-e598b108b566/2pkonAnMyK3DYgA2b56g4jjViAF_worlds_website_banner_v2_041224_3840x1500.webp",
                     description: "A ticketing platform for events and experiences."
                 },
+                // {
+                //     name: "MovieSense",
+                //     link: "https://movie-sense.vercel.app",
+                //     image: "/images/movie-sense.png",
+                //     description: "A movie recommendation algorhythm basead on user history."
+                // },
                 {
-                    name: "MovieSense",
-                    link: "https://movie-sense.vercel.app",
-                    image: "/images/movie-sense.png",
-                    description: "A movie recommendation algorhythm basead on user history."
+                    name: "Carmnet",
+                    link: "https://www.carmnet.com/",
+                    image: "/images/carmnet.png",
+                    description: "A shipment transportation platform."
+                },
+                {
+                    name: "Text My Guests",
+                    link: "https://textmyguests.com/",
+                    image: "/images/tmg.png",
+                    description: "Keep guests informed with scheduled texts & instant broadcasts. Collect replies, share pictures, and chat one-on-one—all in one place."
                 },
                 {
                     name: "ToDo List",
