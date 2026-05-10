@@ -35,18 +35,17 @@ export function ResumeSection({ id }: { id?: string }) {
       <div className="relative mx-auto max-w-3xl pl-2 md:pl-4">
         <div
           aria-hidden
-          className="absolute left-[13px] top-2 bottom-6 w-px md:left-[15px]"
-        >
-          <div className="absolute top-0 left-0 h-[38%] w-full bg-white" />
-          <div className="absolute top-[38%] left-0 bottom-0 w-full bg-zinc-700/75" />
-        </div>
+          className="absolute left-[13px] top-3 bottom-0 w-px bg-white md:left-[15px]"
+        />
 
         <ul className="relative space-y-14">
-          {entries.map((item, index) => (
+          {entries.map((item, index) => {
+            const isLatest = index === entries.length - 1;
+            return (
             <li key={`resume-${index}`} className="relative">
               <span
                 className={`absolute left-[10px] top-10 z-10 h-3 w-3 rounded-full border border-white/25 md:left-[12px] md:top-11 ${
-                  index === 0 ? "bg-white" : "bg-zinc-600"
+                  isLatest ? "bg-white" : "bg-zinc-600"
                 }`}
               />
               <div className="flex flex-col gap-5 pl-10 sm:flex-row sm:items-start sm:gap-8 md:pl-12">
@@ -70,7 +69,8 @@ export function ResumeSection({ id }: { id?: string }) {
                 </div>
               </div>
             </li>
-          ))}
+            );
+          })}
         </ul>
       </div>
     </section>

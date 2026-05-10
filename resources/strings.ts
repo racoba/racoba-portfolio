@@ -94,7 +94,7 @@ const englishStrings = {
         "Developing secure and scalable server-side logic, APIs, and database integration.",
       frontendTitle: "Frontend Development",
       frontendDesc:
-        "Building responsive, user-friendly web interfaces using modern frameworks like React or Vue.",
+        "Building responsive, user-friendly web interfaces using modern frameworks like Next or React.",
     },
     contact: {
       sectionTitle: "Contact me",
@@ -121,20 +121,11 @@ const englishStrings = {
       myWorks: "My Works",
       works: [
         {
-          name: "Ciclick",
-          link: "https://play.google.com/store/apps/details?id=com.ciclik&hl=en_US&gl=US",
-          image:
-            "https://media.licdn.com/dms/image/sync/v2/D4D27AQFpRrZiePJtJQ/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1711743660348?e=1746558000&v=beta&t=0-qXitZ_sGmdQ1D4eom8_rnrS_8A8Tc0_Mb--1NiTKQ",
+          name: "HealthPage AI",
+          link: "https://healthpage-ai.com/",
+          image: "/images/healthpage-ai.svg",
           description:
-            "Be a sustainable consumer, so you earn discounts and compete for exclusive prizes.",
-          category: "apps",
-        },
-        {
-          name: "Necessial",
-          link: "https://www.necessial.com.br/",
-          image:
-            "https://media.licdn.com/dms/image/sync/v2/D4D27AQH8_BswPHZQQA/articleshare-shrink_800/articleshare-shrink_800/0/1726846065587?e=1746561600&v=beta&t=8pyhqt_BW2cx2jRd8-aAAQBqCYsOQCj4VE1M99GbZFA",
-          description: "A natural products marketplace.",
+            "AI-assisted landing pages for healthcare professionals and clinics — ready-made layouts, patient-focused copy, and WhatsApp-ready CTAs.",
           category: "websites",
         },
         {
@@ -146,18 +137,26 @@ const englishStrings = {
           category: "websites",
         },
         {
-          name: "MovieSense",
-          link: "https://movie-sense.vercel.app",
-          image: "/images/movie-sense.png",
-          description:
-            "A movie recommendation algorithm based on user history.",
-          category: "websites",
-        },
-        {
           name: "Carmnet",
           link: "https://www.carmnet.com/",
           image: "/images/carmnet.png",
           description: "A shipment transportation platform.",
+          category: "websites",
+        },
+        {
+          name: "Armada Power",
+          link: "https://apps.apple.com/us/app/armada-power/id1562362061?l=pt-BR",
+          image: "/images/armada-power.webp",
+          description:
+            "iOS app to pair and manage Armada Power water-heater controllers — live status, history, schedules, and vacation mode for energy savings.",
+          category: "apps",
+        },
+        {
+          name: "Small Biz Brands",
+          link: "https://app.smallbizbrands.com/",
+          image: "/images/smallbiz-brands.png",
+          description:
+            "Web app that brings cost-effective digital marketing workflows and guidance to small businesses.",
           category: "websites",
         },
         {
@@ -167,6 +166,21 @@ const englishStrings = {
           description:
             "Keep guests informed with scheduled texts & instant broadcasts. Collect replies, share pictures, and chat one-on-one—all in one place.",
           category: "websites",
+        },
+        {
+          name: "Necessial",
+          link: "https://www.necessial.com.br/",
+          image: "/images/necessial.jpg",
+          description: "A natural products marketplace.",
+          category: "websites",
+        },
+        {
+          name: "Ciclick",
+          link: "https://play.google.com/store/apps/details?id=com.ciclik&hl=en_US&gl=US",
+          image: "/images/ciclick.png",
+          description:
+            "Be a sustainable consumer, so you earn discounts and compete for exclusive prizes.",
+          category: "apps",
         },
         {
           name: "ToDo List",
@@ -234,6 +248,13 @@ const englishStrings = {
           year: 2025,
           icon: "SchoolIcon",
         },
+        {
+          title: "UNIPDS — Postgraduate (Applied AI Engineering)",
+          description:
+            "Started a postgraduate program in Applied Artificial Intelligence Engineering.",
+          year: 2026,
+          icon: "SchoolIcon",
+        },
       ] satisfies TimelineStep[],
     },
     latestWorkMenu: [
@@ -248,7 +269,7 @@ const englishStrings = {
         name: "Ciclick",
         link: "https://play.google.com/store/apps/details?id=com.ciclik&hl=en_US&gl=US",
         image:
-          "https://media.licdn.com/dms/image/sync/v2/D4D27AQFpRrZiePJtJQ/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1711743660348?e=1746558000&v=beta&t=0-qXitZ_sGmdQ1D4eom8_rnrS_8A8Tc0_Mb--1NiTKQ",
+          "/images/ciclick.png",
         description:
           "Be a sustainable consumer, so you earn discounts and compete for exclusive prizes.",
       },
@@ -341,7 +362,7 @@ const portugueseStrings = {
         "Lógica server-side segura e escalável, APIs e integração com bases de dados.",
       frontendTitle: "Desenvolvimento frontend",
       frontendDesc:
-        "Interfaces web responsivas e agradáveis com frameworks modernos como React ou Vue.",
+        "Interfaces web responsivas e agradáveis com frameworks modernos como Next ou React.",
     },
     contact: {
       sectionTitle: "Fale comigo",
@@ -368,20 +389,11 @@ const portugueseStrings = {
       myWorks: "Meus Trabalhos",
       works: [
         {
-          name: "Ciclick",
-          link: "https://play.google.com/store/apps/details?id=com.ciclik&hl=pt_BR&gl=BR",
-          image:
-            "https://media.licdn.com/dms/image/sync/v2/D4D27AQFpRrZiePJtJQ/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1711743660348?e=1746558000&v=beta&t=0-qXitZ_sGmdQ1D4eom8_rnrS_8A8Tc0_Mb--1NiTKQ",
+          name: "HealthPage AI",
+          link: "https://healthpage-ai.com/",
+          image: "/images/healthpage-ai.svg",
           description:
-            "Seja um consumidor sustentável, ganhe descontos e concorra a prêmios exclusivos.",
-          category: "apps",
-        },
-        {
-          name: "Necessial",
-          link: "https://www.necessial.com.br/",
-          image:
-            "https://media.licdn.com/dms/image/sync/v2/D4D27AQH8_BswPHZQQA/articleshare-shrink_800/articleshare-shrink_800/0/1726846065587?e=1746561600&v=beta&t=8pyhqt_BW2cx2jRd8-aAAQBqCYsOQCj4VE1M99GbZFA",
-          description: "Um marketplace de produtos naturais.",
+            "Páginas profissionais com IA para profissionais e clínicas de saúde — modelos prontos, textos gerados e CTAs pensados para agendamento (ex.: WhatsApp).",
           category: "websites",
         },
         {
@@ -394,18 +406,26 @@ const portugueseStrings = {
           category: "websites",
         },
         {
-          name: "MovieSense",
-          link: "https://movie-sense.vercel.app",
-          image: "/images/movie-sense.png",
-          description:
-            "Um algoritmo de recomendação de filmes baseado no histórico do usuário.",
-          category: "websites",
-        },
-        {
           name: "Carmnet",
           link: "https://www.carmnet.com/",
           image: "/images/carmnet.png",
           description: "Uma plataforma de transporte de cargas.",
+          category: "websites",
+        },
+        {
+          name: "Armada Power",
+          link: "https://apps.apple.com/us/app/armada-power/id1562362061?l=pt-BR",
+          image: "/images/armada-power.webp",
+          description:
+            "App iOS para cadastrar e gerenciar controladores de aquecedores Armada Power — status em tempo real, histórico, agendamentos e modo viagem para economia de energia.",
+          category: "apps",
+        },
+        {
+          name: "Small Biz Brands",
+          link: "https://app.smallbizbrands.com/",
+          image: "/images/smallbiz-brands.png",
+          description:
+            "Aplicação web que oferece fluxos e orientação de marketing digital acessíveis para pequenos negócios.",
           category: "websites",
         },
         {
@@ -415,6 +435,22 @@ const portugueseStrings = {
           description:
             "Mantenha os convidados informados com SMS agendados e transmissões instantâneas.",
           category: "websites",
+        },
+        {
+          name: "Necessial",
+          link: "https://www.necessial.com.br/",
+          image:
+          "/images/necessial.jpg",
+          description: "Um marketplace de produtos naturais.",
+          category: "websites",
+        },
+        {
+          name: "Ciclick",
+          link: "https://play.google.com/store/apps/details?id=com.ciclik&hl=pt_BR&gl=BR",
+          image:"/images/ciclick.png",
+          description:
+            "Seja um consumidor sustentável, ganhe descontos e concorra a prêmios exclusivos.",
+          category: "apps",
         },
         {
           name: "ToDo List",
@@ -482,6 +518,13 @@ const portugueseStrings = {
           year: 2025,
           icon: "SchoolIcon",
         },
+        {
+          title: "UNIPDS — Pós-graduação (Engenharia de IA aplicada)",
+          description:
+            "Início da pós-graduação em Engenharia de Inteligência Artificial aplicada.",
+          year: 2026,
+          icon: "SchoolIcon",
+        },
       ] satisfies TimelineStep[],
     },
     latestWorkMenu: [
@@ -497,7 +540,7 @@ const portugueseStrings = {
         name: "Ciclick",
         link: "https://play.google.com/store/apps/details?id=com.ciclik&hl=pt_BR&gl=BR",
         image:
-          "https://media.licdn.com/dms/image/sync/v2/D4D27AQFpRrZiePJtJQ/articleshare-shrink_1280_800/articleshare-shrink_1280_800/0/1711743660348?e=1746558000&v=beta&t=0-qXitZ_sGmdQ1D4eom8_rnrS_8A8Tc0_Mb--1NiTKQ",
+          "/images/ciclick.png",
         description:
           "Seja um consumidor sustentável, ganhe descontos e concorra a prêmios exclusivos.",
       },
