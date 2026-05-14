@@ -39,7 +39,7 @@ const englishStrings = {
     hero: {
       name: "Bruno Racobaldo",
       role: "Full Stack Developer",
-      portraitSrc: "/images/profile.jpg",
+      portraitSrc: "/images/foto-portfolio.png",
       portraitAlt: "Bruno Racobaldo — portrait",
       contactMe: "Contact me",
       viewWork: "View my work",
@@ -307,7 +307,7 @@ const portugueseStrings = {
     hero: {
       name: "Bruno Racobaldo",
       role: "Desenvolvedor Full Stack",
-      portraitSrc: "/images/profile.jpg",
+      portraitSrc: "/images/foto-portfolio.png",
       portraitAlt: "Bruno Racobaldo — retrato",
       contactMe: "Fale comigo",
       viewWork: "Ver meu trabalho",

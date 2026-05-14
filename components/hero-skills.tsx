@@ -68,7 +68,7 @@ export function HeroSkills({ id = "home" }: { id?: string }) {
                 src={t.hero.portraitSrc}
                 alt={t.hero.portraitAlt}
                 fill
-                className="object-cover saturate-[0.85] hue-rotate-[-8deg]"
+                className="-scale-x-100 object-cover saturate-[0.85] hue-rotate-[-8deg]"
                 sizes="(max-width: 768px) 280px, 320px"
                 priority
               />
