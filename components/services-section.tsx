@@ -1,13 +1,6 @@
 "use client";
 
-import {
-  AppWindow,
-  BrainCircuit,
-  Code2,
-  Database,
-  Monitor,
-  PenLine,
-} from "lucide-react";
+import { Bot, BrainCircuit, Monitor, PenLine } from "lucide-react";
 import { useLocale } from "@/components/locale-provider";
 
 function SpeedIcon() {
@@ -16,15 +9,6 @@ function SpeedIcon() {
       <div className="pointer-events-none absolute inset-0 rounded-full bg-gradient-to-br from-amber-400/55 to-orange-500/25 blur-xl" />
       <Monitor className="relative z-[1] h-9 w-9 text-white" strokeWidth={1.15} />
       <PenLine className="absolute bottom-2 right-2 z-[2] h-5 w-5 text-white/95" strokeWidth={1.35} />
-    </div>
-  );
-}
-
-function FrontendIcon() {
-  return (
-    <div className="relative flex h-14 w-14 items-center justify-center">
-      <AppWindow className="relative z-[1] h-11 w-11 text-white" strokeWidth={1.15} />
-      <Code2 className="absolute bottom-2 right-2 z-[2] h-5 w-5 text-white/95" strokeWidth={1.35} />
     </div>
   );
 }
@@ -43,14 +27,9 @@ const servicesMeta = [
     ),
   },
   {
-    key: "backend" as const,
-    glow: "from-fuchsia-400/65 to-pink-600/35",
-    icon: <Database className="relative z-[1] h-10 w-10 text-white" strokeWidth={1.2} />,
-  },
-  {
-    key: "frontend" as const,
-    glow: "from-cyan-400/65 to-teal-600/40",
-    icon: <FrontendIcon />,
+    key: "aiAgents" as const,
+    glow: "from-violet-400/65 to-indigo-600/40",
+    icon: <Bot className="relative z-[1] h-10 w-10 text-white" strokeWidth={1.2} />,
   },
 ];
 
@@ -63,13 +42,9 @@ export function ServicesSection({ id }: { id?: string }) {
       title: t.services.fullStackTitle,
       description: t.services.fullStackDesc,
     },
-    backend: {
-      title: t.services.backendTitle,
-      description: t.services.backendDesc,
-    },
-    frontend: {
-      title: t.services.frontendTitle,
-      description: t.services.frontendDesc,
+    aiAgents: {
+      title: t.services.aiAgentsTitle,
+      description: t.services.aiAgentsDesc,
     },
   };
 
@@ -79,7 +54,7 @@ export function ServicesSection({ id }: { id?: string }) {
         {t.services.sectionTitle}
       </h2>
 
-      <div className="mx-auto mt-14 grid max-w-6xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto mt-14 grid max-w-6xl gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {servicesMeta.map((service) => {
           const text = copy[service.key];
           return (

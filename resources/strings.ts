@@ -89,12 +89,9 @@ const englishStrings = {
       fullStackTitle: "Full-Stack Solutions",
       fullStackDesc:
         "End-to-end development from frontend UI to backend infrastructure and deployment.",
-      backendTitle: "Backend Development",
-      backendDesc:
-        "Developing secure and scalable server-side logic, APIs, and database integration.",
-      frontendTitle: "Frontend Development",
-      frontendDesc:
-        "Building responsive, user-friendly web interfaces using modern frameworks like Next or React.",
+      aiAgentsTitle: "AI agents & automation",
+      aiAgentsDesc:
+        "Design and implementation of AI agents and automations tailored to your service — integrations, tooling, and workflows aligned with how you operate.",
     },
     contact: {
       sectionTitle: "Contact me",
@@ -357,12 +354,9 @@ const portugueseStrings = {
       fullStackTitle: "Soluções full stack",
       fullStackDesc:
         "Desenvolvimento ponta a ponta da UI ao backend, infraestrutura e deploy.",
-      backendTitle: "Desenvolvimento backend",
-      backendDesc:
-        "Lógica server-side segura e escalável, APIs e integração com bases de dados.",
-      frontendTitle: "Desenvolvimento frontend",
-      frontendDesc:
-        "Interfaces web responsivas e agradáveis com frameworks modernos como Next ou React.",
+      aiAgentsTitle: "Agentes de IA",
+      aiAgentsDesc:
+        "Implementação de agentes de IA e automações sob medida para o seu serviço — integrações, ferramentas e fluxos alinhados à sua operação.",
     },
     contact: {
       sectionTitle: "Fale comigo",

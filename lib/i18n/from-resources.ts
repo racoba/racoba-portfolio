@@ -86,10 +86,8 @@ export function buildMessages(locale: Locale): Messages {
       speedDesc: s.landing.services.speedDesc,
       fullStackTitle: s.landing.services.fullStackTitle,
       fullStackDesc: s.landing.services.fullStackDesc,
-      backendTitle: s.landing.services.backendTitle,
-      backendDesc: s.landing.services.backendDesc,
-      frontendTitle: s.landing.services.frontendTitle,
-      frontendDesc: s.landing.services.frontendDesc,
+      aiAgentsTitle: s.landing.services.aiAgentsTitle,
+      aiAgentsDesc: s.landing.services.aiAgentsDesc,
     },
     contact: {
       sectionTitle: s.landing.contact.sectionTitle,

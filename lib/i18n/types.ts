@@ -63,10 +63,8 @@ export type Messages = {
     speedDesc: string;
     fullStackTitle: string;
     fullStackDesc: string;
-    backendTitle: string;
-    backendDesc: string;
-    frontendTitle: string;
-    frontendDesc: string;
+    aiAgentsTitle: string;
+    aiAgentsDesc: string;
   };
   contact: {
     sectionTitle: string;
