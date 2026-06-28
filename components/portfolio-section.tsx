@@ -8,6 +8,34 @@ import type { PortfolioCategory } from "@/lib/i18n/types";
 
 const FILTER_ORDER: PortfolioCategory[] = ["all", "websites", "apps"];
 
+function ProjectImage({
+  src,
+  alt,
+}: {
+  src: string;
+  alt: string;
+}) {
+  if (src.endsWith(".svg")) {
+    return (
+      <img
+        src={src}
+        alt={alt}
+        className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-[1.02]"
+      />
+    );
+  }
+
+  return (
+    <Image
+      src={src}
+      alt={alt}
+      fill
+      className="object-cover transition duration-300 group-hover:scale-[1.02]"
+      sizes="(max-width: 640px) 280px, (max-width: 1024px) 320px, 33vw"
+    />
+  );
+}
+
 export function PortfolioSection({ id }: { id?: string }) {
   const { t } = useLocale();
   const scrollerRef = useRef<HTMLDivElement>(null);
@@ -112,13 +140,7 @@ export function PortfolioSection({ id }: { id?: string }) {
               >
                 <div className="overflow-hidden rounded-[22px] border border-white/[0.07] bg-zinc-900/40 shadow-[0_24px_80px_-40px_rgba(0,0,0,0.9)] transition group-hover:border-white/15">
                   <div className="relative aspect-[4/3]">
-                    <Image
-                      src={project.image}
-                      alt={project.description}
-                      fill
-                      className="object-cover transition duration-300 group-hover:scale-[1.02]"
-                      sizes="(max-width: 640px) 280px, (max-width: 1024px) 320px, 33vw"
-                    />
+                    <ProjectImage src={project.image} alt={project.description} />
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-90" />
                     <p className="absolute bottom-4 left-4 text-sm font-medium text-white drop-shadow">
                       {project.name}

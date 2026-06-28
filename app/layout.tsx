@@ -25,6 +25,13 @@ export default function RootLayout({
       className={`${inter.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        {/* Safari iOS auto-links phone numbers/addresses and breaks React hydration */}
+        <meta
+          name="format-detection"
+          content="telephone=no, date=no, email=no, address=no"
+        />
+      </head>
       <body
         className="min-h-full bg-[#0a0a0a] text-white"
         suppressHydrationWarning

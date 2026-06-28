@@ -58,3 +58,22 @@ select:not(:disabled) {
   animation: float-soft 5s ease-in-out infinite;
   animation-delay: 1.2s;
 }
+
+/*
+ * iOS Safari: many large blurs + backdrop-filter layers freeze compositing
+ * and keep the page in a "loading" state. Android Chrome handles these fine.
+ */
+@supports (-webkit-touch-callout: none) {
+  .site-bg-blob {
+    filter: blur(48px) !important;
+  }
+
+  .ios-no-backdrop {
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .ios-no-blend {
+    mix-blend-mode: normal !important;
+  }
+}

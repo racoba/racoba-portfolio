@@ -39,7 +39,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50">
       {/* Blur only on the bar — backdrop-filter on an ancestor breaks position:fixed for the drawer */}
-      <div className="border-b border-white/[0.06] bg-[#0a0a0a]/70 backdrop-blur-xl">
+      <div className="ios-no-backdrop border-b border-white/[0.06] bg-[#0a0a0a]/90 backdrop-blur-xl">
       <div className="mx-auto max-w-6xl px-6 md:px-8">
         {/* Mobile */}
         <div className="flex items-center justify-between gap-3 py-4 md:hidden">
